@@ -1,0 +1,58 @@
+{
+  "_from": "nodebb-plugin-composer-default@6.3.27",
+  "_id": "nodebb-plugin-composer-default@6.3.27",
+  "_inBundle": false,
+  "_integrity": "sha1-EvSOlSYNNQgrdh8P7Mvc4L5fnvU=",
+  "_location": "/nodebb-plugin-composer-default",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "nodebb-plugin-composer-default@6.3.27",
+    "name": "nodebb-plugin-composer-default",
+    "escapedName": "nodebb-plugin-composer-default",
+    "rawSpec": "6.3.27",
+    "saveSpec": null,
+    "fetchSpec": "6.3.27"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npm.taobao.org/nodebb-plugin-composer-default/download/nodebb-plugin-composer-default-6.3.27.tgz",
+  "_shasum": "12f48e95260d35082b761f0feccbdce0be5f9ef5",
+  "_spec": "nodebb-plugin-composer-default@6.3.27",
+  "_where": "/Users/limiao/NodeBB",
+  "author": {
+    "name": "NodeBB Team",
+    "email": "sales@nodebb.org"
+  },
+  "bugs": {
+    "url": "https://github.com/NodeBB/nodebb-plugin-composer-default/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "screenfull": "^4.0.0",
+    "validator": "^11.0.0"
+  },
+  "deprecated": false,
+  "description": "Default composer for NodeBB",
+  "homepage": "https://github.com/NodeBB/nodebb-plugin-composer-default#readme",
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "composer",
+    "markdown"
+  ],
+  "license": "MIT",
+  "main": "library.js",
+  "name": "nodebb-plugin-composer-default",
+  "nbbpm": {
+    "compatibility": "^1.13.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NodeBB/nodebb-plugin-composer-default.git"
+  },
+  "version": "6.3.27"
+}
