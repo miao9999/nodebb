@@ -1,0 +1,23 @@
+{
+	"id": "nodebb-plugin-announcements",
+	"url": "https://gitlab.com/search-on-npm/nodebb-plugin-announcements",
+	"library": "./library.js",
+	"hooks": [
+		{
+			"hook": "filter:category.get", "method": "addAnnouncements"
+		},
+		{
+			"hook": "filter:topic.thread_tools", "method": "addThreadTools"
+		}
+	],
+	"staticDirs": {
+		"static": "./static"
+	},
+	"less": [
+		"static/style.less"
+	],
+	"scripts": [
+		"static/lib/main.js"
+	],
+	"templates": "static/templates"
+}

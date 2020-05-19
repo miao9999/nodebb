@@ -10,6 +10,10 @@ COPY install/package.json /usr/src/app/package.json
 
 RUN npm install --only=prod && \
     npm cache clean --force
+
+COPY plugins/nodebb-plugin-composer-default ./nodebb_modules/nodebb-plugin-composer-default
+
+COPY plugins/nodebb-plugin-announcements ./nodebb_modules/nodebb-plugin-announcements
     
 COPY . /usr/src/app
 

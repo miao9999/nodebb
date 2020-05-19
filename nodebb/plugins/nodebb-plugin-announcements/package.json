@@ -1,0 +1,68 @@
+{
+  "_from": "nodebb-plugin-announcements@0.1.10",
+  "_id": "nodebb-plugin-announcements@0.1.10",
+  "_inBundle": false,
+  "_integrity": "sha1-kJTmx7gyMhVqO2Y04FNPG1pXi28=",
+  "_location": "/nodebb-plugin-announcements",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "nodebb-plugin-announcements@0.1.10",
+    "name": "nodebb-plugin-announcements",
+    "escapedName": "nodebb-plugin-announcements",
+    "rawSpec": "0.1.10",
+    "saveSpec": null,
+    "fetchSpec": "0.1.10"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npm.taobao.org/nodebb-plugin-announcements/download/nodebb-plugin-announcements-0.1.10.tgz",
+  "_shasum": "9094e6c7b83232156a3b6634e0534f1b5a578b6f",
+  "_spec": "nodebb-plugin-announcements@0.1.10",
+  "_where": "/Users/limiao/NodeBB",
+  "author": {
+    "name": "Search On Media Group"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/search-on-npm/nodebb-plugin-announcements/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Search On Media Group"
+    }
+  ],
+  "deprecated": false,
+  "description": "nodebb-plugin-announcements",
+  "homepage": "https://gitlab.com/search-on-npm/nodebb-plugin-announcements#readme",
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "connect",
+    "announcements"
+  ],
+  "license": "MIT",
+  "main": "library.js",
+  "name": "nodebb-plugin-announcements",
+  "nbbpm": {
+    "compatibility": "^1.12.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/search-on-npm/nodebb-plugin-announcements.git"
+  },
+  "scripts": {
+    "deploy:prod": "npm run version:patch && npm run push && npm publish",
+    "deploy:prod:major": "npm run version:major && npm run push && npm publish",
+    "deploy:prod:minor": "npm run version:minor && npm run push && npm publish",
+    "push": "npm run push:git",
+    "push:git": "git push --tags origin HEAD:master",
+    "version:major": "npm version major",
+    "version:minor": "npm version minor",
+    "version:patch": "npm version patch"
+  },
+  "version": "0.1.10"
+}
